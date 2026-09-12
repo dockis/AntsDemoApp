@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wappka-dev",
+      "runtimeExecutable": "C:\\Users\\martin.dockal\\Workspace\\_temp\\AntsDemoApp\\.claude\\dev.cmd",
+      "runtimeArgs": [],
+      "port": 5173
+    }
+  ]
+}
