@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Generováno postinstall skriptem (scripts/copy-game-assets.mjs) z node_modules/ants-game-component
+public/ants-game-component-assets
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

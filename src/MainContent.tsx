@@ -1,20 +1,16 @@
 import { Box } from '@mui/material'
-import type { ReactNode } from 'react'
+import { AntsGameComponent } from 'ants-game-component'
 
-interface MainContentProps {
-  children?: ReactNode
-}
-
-function MainContent({ children }: MainContentProps) {
+function MainContent() {
   return (
     <Box
       sx={{
         flex: 1,
-        overflow: 'auto',
+        overflow: 'hidden',
         bgcolor: 'common.white',
       }}
     >
-      {children}
+      <AntsGameComponent assetsBaseUrl="/ants-game-component-assets/" />
     </Box>
   )
 }
