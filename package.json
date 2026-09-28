@@ -15,7 +15,7 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^9.4.0",
     "@mui/material": "^9.4.0",
-    "ants-game-component": "file:vendor/ants-game-component/ants-game-component-1.0.0.tgz",
+    "ants-game-component": "https://github.com/dockis/AntsGameComponent/archive/refs/tags/v1.1.0.tar.gz",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
